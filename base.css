@@ -1,0 +1,60 @@
+.cabecalho{
+	background-color: black;
+	text-align: center;
+}
+.fundo{
+	background-color: black;
+}
+.fotos{
+	text-align: center;
+	border-width: 5px;
+	border-style: solid;
+	border-color: darkred;
+	border-spacing: 0px;
+}
+.hiperlink{
+	color: black;
+	text-decoration: none;
+	font-family: Impact, fantasy, sans-serif;
+	font-weight: normal;
+	font-size: 22px;
+}
+.menudiv{
+	text-align: center;
+	background-color: darkred;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+	border-spacing: 0px;
+}
+.menu{
+	font-size: 28px;
+	color: black;
+}
+h2{
+	font-size: 28px;
+	font-family: Impact, fantasy, sans-serif;
+	font-weight: normal;
+}
+th{
+	font-size: 22px;
+	font-weight: normal;
+}
+td{
+	font-size: 16px;
+}
+hr{
+	border-color: black;
+}
+p{
+	font-size: 16px;
+	color: black;
+	font-family: Impact, fantasy, sans-serif;
+	text-align: left;
+}
+ul{
+	font-size: 16px;
+	color: black;
+	font-family: Impact, fantasy, sans-serif;
+	text-align: left;
+}
