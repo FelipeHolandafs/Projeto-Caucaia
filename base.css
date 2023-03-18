@@ -1,60 +1,108 @@
-.cabecalho{
-	background-color: black;
-	text-align: center;
-}
-.fundo{
-	background-color: black;
-}
-.fotos{
+.fotos{ /* */
 	text-align: center;
 	border-width: 5px;
 	border-style: solid;
 	border-color: darkred;
 	border-spacing: 0px;
 }
-.hiperlink{
+.hiperlinksjogos{ /* */
+	color: rgb(14, 144, 188);
+	font-family: Impact, fantasy, sans-serif;
+	font-weight: normal;
+	font-size: 22px;
+}
+.hiperlinksjogos:hover{
+	color: hwb(36 0% 0%);
+}
+.hiperlinkmenu{ /* */
 	color: black;
 	text-decoration: none;
 	font-family: Impact, fantasy, sans-serif;
 	font-weight: normal;
 	font-size: 22px;
 }
-.menudiv{
-	text-align: center;
-	background-color: darkred;
-	border-width: 5px;
-	border-style: solid;
-	border-color: black;
-	border-spacing: 0px;
-}
-.menu{
-	font-size: 28px;
-	color: black;
-}
-h2{
+h2{ /* subletra */
 	font-size: 28px;
 	font-family: Impact, fantasy, sans-serif;
 	font-weight: normal;
 }
-th{
+th{ /* altera cabeçalho das tabelas*/
 	font-size: 22px;
 	font-weight: normal;
+	border: 2px solid;
+	border-color: black;
+	border-spacing: 0px;
+	margin-left: auto;
+  	margin-right: auto;
 }
-td{
-	font-size: 16px;
+td{ /* altera as celulas das tabelas */
+	font-size: 16px; 
+	text-align: center;
+	border: 2px solid;
+	border-color: black;
+	border-spacing: 0px;
+	margin-left: auto;
+  	margin-right: auto;
+
 }
-hr{
+hr{ /* altera linha divisória */
 	border-color: black;
 }
-p{
+p{ /* altera os parágrafos */
 	font-size: 16px;
 	color: black;
 	font-family: Impact, fantasy, sans-serif;
 	text-align: left;
 }
-ul{
+ul{ /* altera as listas sem ordenação*/
 	font-size: 16px;
 	color: black;
 	font-family: Impact, fantasy, sans-serif;
 	text-align: left;
+}
+nav{ /* altera as abas de menu*/
+	width: 95em;
+	text-align: center;
+	background-color: darkred;
+	border-style: solid;
+	border-color: black;
+	margin-left: auto;
+  	margin-right: auto;
+	color: black;
+	font-size:medium;
+}
+a:hover{
+	color: #deff06;
+
+}
+header{ /* altera a div inicial*/
+	text-align: center;
+}
+footer{ /* altera rodapé*/
+	width: 95em;
+	text-align: center;
+	background-color: darkred;
+	border-style: solid;
+	border-color: black;
+	margin-left: auto;
+  	margin-right: auto;
+	color: black;
+	font-size:medium;
+}
+main{ /* altera parte central, principal*/
+	width: 95em;
+	text-align: center;
+	background-color: darkred;
+	margin-left: auto;
+  	margin-right: auto;
+}
+body{ /* altera base do site*/
+	background-color: black;
+}
+table{
+	border: 5px solid;
+	border-color: black;
+	border-spacing: 0px;
+	margin-left: auto;
+  	margin-right: auto;
 }
