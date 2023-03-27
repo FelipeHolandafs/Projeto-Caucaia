@@ -1,108 +1,199 @@
-.fotos{ /* */
+header {
+	/* altera a div inicial*/
 	text-align: center;
-	border-width: 5px;
+	background-color: rgb(11, 14, 14);
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	/* altera base do site*/
+	background-color: black;
+	font-size: 14px;
+	font-family: Impact, fantasy, sans-serif;
+}
+
+nav {
+	/* altera as abas de menu*/
+	width: 1500px;
+	height: 35px;
+	overflow: hidden;
+	background-color: #706363;
+	text-align: center;
+	color: darkred;
+	text-decoration: none;
+	padding-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main {
+	/* altera parte central, principal*/
+	text-align: center;
+	background-color: rgb(11, 14, 14);
+	margin-left: auto;
+	margin-right: auto;
+	width: 1500px;
+	color: darkred;
+}
+
+footer {
+	/* altera rodapé*/
+	text-align: center;
+	background-color: #706363;
 	border-style: solid;
+	border-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	font-size: medium;
+	width: 1500px;
+}
+
+.photoprofile {
+	/* */
+	text-align: center;
+	width: 200px;
+	height: 240px;
+	border: 5px solid;
+	border-color: darkred;
+}
+
+.photoindex {
+	width: 800px;
+	height: 535px;
+	border: 10px solid;
+	border-color: darkred;
+}
+
+table {
+	border: 5px solid;
 	border-color: darkred;
 	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
 }
-.hiperlinksjogos{ /* */
+
+.tableindex {
+	width: 550px;
+	background-color: #706363;
+	margin-right: 40px;
+}
+
+th {
+	/* altera cabeçalho das tabelas*/
+	font-size: 22px;
+	font-weight: normal;
+	border: 2px solid;
+	border-color: darkred;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #706363;
+}
+
+td {
+	/* altera as celulas das tabelas */
+	font-size: 16px;
+	text-align: center;
+	border: 2px solid;
+	border-color: antiquewhite;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+tr {
+	background-color: antiquewhite;
+}
+
+a {
+	padding: 10px;
+}
+
+.hiperlinksjogos {
+	/* */
 	color: rgb(14, 144, 188);
 	font-family: Impact, fantasy, sans-serif;
 	font-weight: normal;
 	font-size: 22px;
 }
-.hiperlinksjogos:hover{
-	color: hwb(36 0% 0%);
+
+.hiperlinksjogos:hover {
+	color: darkred;
 }
-.hiperlinkmenu{ /* */
+
+.hiperlinkmenu {
+	/* */
 	color: black;
 	text-decoration: none;
 	font-family: Impact, fantasy, sans-serif;
 	font-weight: normal;
 	font-size: 22px;
 }
-h2{ /* subletra */
+
+.hiperlinkmenu:hover {
+	background-color: darkred;
+	;
+}
+
+h2 {
+	/* subletra */
 	font-size: 28px;
+	color: darkred;
 	font-family: Impact, fantasy, sans-serif;
 	font-weight: normal;
 }
-th{ /* altera cabeçalho das tabelas*/
-	font-size: 22px;
-	font-weight: normal;
-	border: 2px solid;
-	border-color: black;
-	border-spacing: 0px;
-	margin-left: auto;
-  	margin-right: auto;
-}
-td{ /* altera as celulas das tabelas */
-	font-size: 16px; 
-	text-align: center;
-	border: 2px solid;
-	border-color: black;
-	border-spacing: 0px;
-	margin-left: auto;
-  	margin-right: auto;
 
-}
-hr{ /* altera linha divisória */
+hr {
+	/* altera linha divisória */
 	border-color: black;
 }
-p{ /* altera os parágrafos */
+
+p {
+	/* altera os parágrafos */
 	font-size: 16px;
-	color: black;
+	color: darkred;
 	font-family: Impact, fantasy, sans-serif;
 	text-align: left;
 }
-ul{ /* altera as listas sem ordenação*/
+
+ul {
+	/* altera as listas sem ordenação*/
 	font-size: 16px;
-	color: black;
+	color: darkred;
 	font-family: Impact, fantasy, sans-serif;
 	text-align: left;
 }
-nav{ /* altera as abas de menu*/
-	width: 95em;
-	text-align: center;
-	background-color: darkred;
-	border-style: solid;
-	border-color: black;
-	margin-left: auto;
-  	margin-right: auto;
-	color: black;
-	font-size:medium;
-}
-a:hover{
-	color: #deff06;
 
+.dropdown {
+	overflow: hidden;
 }
-header{ /* altera a div inicial*/
-	text-align: center;
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #706363;
+	z-index: 1;
+	margin: 8px 400px;
 }
-footer{ /* altera rodapé*/
-	width: 95em;
-	text-align: center;
-	background-color: darkred;
-	border-style: solid;
-	border-color: black;
-	margin-left: auto;
-  	margin-right: auto;
+
+.dropdown-content a {
+	float: none;
 	color: black;
-	font-size:medium;
+	text-decoration: none;
+	display: block;
+	text-align: left;
 }
-main{ /* altera parte central, principal*/
-	width: 95em;
-	text-align: center;
+
+.dropdown-content a:hover {
 	background-color: darkred;
-	margin-left: auto;
-  	margin-right: auto;
+	;
 }
-body{ /* altera base do site*/
-	background-color: black;
-}
-table{
-	border: 5px solid;
-	border-color: black;
-	border-spacing: 0px;
-	margin-left: auto;
-  	margin-right: auto;
+
+.dropdown:hover .dropdown-content {
+	display: block;
 }
